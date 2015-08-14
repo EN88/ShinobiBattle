@@ -1,9 +1,16 @@
-html,body {
+html, body {
     background-image: url(assets/img/stardust.png);
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
 }
 h2 {
-    font-size: 40px;
+    font-size: 35px;
     color: #bdc3c7;
+    margin: 0;
+    padding-top: 20px;
 }
 header {
     height: 80px;
@@ -13,7 +20,15 @@ header {
     margin-bottom: 25px;
     opacity: 0.7;
 }
-
+.git img {
+    width: 60px;
+    float: left;
+    margin: 10px 0 0 20px;
+    opacity: 0.7;
+}
+.git img:hover{
+    opacity: 1;
+}
 
 /*ostylowac canvas?*/
 #gameContainer {
@@ -26,11 +41,10 @@ footer {
     text-align: center;
     border-top: 3px solid #bdc3c7;
     margin-top: 25px;
-    opacity: 0.7;
-        
+    opacity: 0.7;       
 }
 footer > p {
     font-size: 24px;
     color: #bdc3c7;
-    line-height: 40px;
+    line-height: 24px;
 }
