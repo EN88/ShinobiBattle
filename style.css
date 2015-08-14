@@ -1,0 +1,36 @@
+html,body {
+    background-image: url(assets/img/stardust.png);
+}
+h2 {
+    font-size: 40px;
+    color: #bdc3c7;
+}
+header {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #bdc3c7;
+    margin-bottom: 25px;
+    opacity: 0.7;
+}
+
+
+/*ostylowac canvas?*/
+#gameContainer {
+    
+}
+
+footer {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    border-top: 3px solid #bdc3c7;
+    margin-top: 25px;
+    opacity: 0.7;
+        
+}
+footer > p {
+    font-size: 24px;
+    color: #bdc3c7;
+    line-height: 40px;
+}
