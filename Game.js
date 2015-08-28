@@ -685,4 +685,3 @@ ShinobiBattle.Game.prototype = {
 
 
 
-//duckTape, podstawki pod doniczki, kabel do wentylatora
